@@ -1,0 +1,261 @@
+body {
+	background: white;
+	font-size: 11px;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	color: #333;
+	line-height: 1.28;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Typography
+/*-----------------------------------------------------------------------------------*/
+a {
+	cursor: pointer;
+	color: #3B5998;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+h3 {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.1em;
+}
+input {
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	background-color: #FFF;
+	border:1px solid #ccc;
+	word-wrap:break-word;
+}
+.postInfo {
+	display: block; /* Spans are inline element so needs to be changed to block in order for the margin to work */
+	color: #808080;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+p {
+	font-size: 11px;
+	line-height: 1.5em;
+}
+.line {
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: #ccc;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.more {
+	color: #3B5998;
+	font-weight: bold;
+}
+.likesCount {
+	font-size: 16px;
+	font-weight: bold;
+}
+/*****
+Main table-layout: 
+*****/
+#layout {
+	background: url('../images/layout_bg.png') repeat top left;
+	width: 700px;
+	/*height: 630px;*/
+	padding: 10px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.left_col {
+	width: 200px;
+}
+
+.search_box {
+	margin-bottom: 10px;
+}
+
+.search_box input {
+	
+	width: 190px;
+	padding: 5px;
+}
+
+.friend_list {
+	width: 200px;
+	background-color: #FFF;
+	height: 560px;
+	border:1px solid #ccc;
+	
+}
+
+.friend_list ul {
+	margin: 10px;
+}
+
+.right_col {
+	width: 490px;
+}
+
+.welcome_info {
+	/*height: 22px;*/
+	background-color: #FFF;
+	border:1px solid #ccc;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.welcome_info h3 {
+	margin-top: 3px;
+}
+
+.user_info {
+	margin-bottom: 10px;
+}
+
+.user_image {
+	
+	background-color: #FFF;
+	border:1px solid #ccc;
+}
+
+.user_img {
+	height: 110px;
+	width: 110px;
+	margin: 3px;
+	overflow: hidden;
+}
+
+.user_opt {
+	height: 102px;
+	width: 355px;
+	background-color: #FFF;
+	border:1px solid #ccc;
+	padding: 7px 0 7px 7px;
+}
+
+.user_log {
+	height: 80px;
+}
+
+.details {
+	height: 420px;
+	background-color: #FFF;
+	border:1px solid #ccc;
+	overflow: auto;
+}
+
+/* ------------------------------------------ */
+
+/* =buttons
+--------------------------------------------- */
+i.work, i.study, i.relation, i.home, i.birth {
+	width: 11px;
+	height: 13px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+i.work {
+	background: url('../images/icons.png') no-repeat -237px -1px;
+}
+i.study {
+	background: url('../images/icons.png') no-repeat -155px -1px;
+}
+i.relation {
+	background: url('../images/icons.png') no-repeat -197px -1px;
+}
+i.home {
+	background: url('../images/icons.png') no-repeat -264px -1px;
+}
+i.birth {
+	background: url('../images/icons.png') no-repeat -177px -1px;
+}
+.facebook-button:link, .facebook-button:visited {
+  background-color: #eee;
+  background-image: -moz-linear-gradient(top, #fdfdfd, #eaebeb);
+  background-image: -ms-linear-gradient(top, #fdfdfd, #eaebeb);
+  background-image: -o-linear-gradient(top, #fdfdfd, #eaebeb));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fdfdfd), to(#eaebeb));
+  background-image: -webkit-linear-gradient(top, #fdfdfd, #eaebeb);
+  background-image: linear-gradient(top, #fdfdfd, #eaebeb);
+  border: 1px solid #a9a9a9;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+  color: #4f4f4f;
+  display: -moz-inline-box;
+  display: inline-block;
+  font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, .33);
+}
+
+.facebook-button span {
+  background: url("../images/sprites.png") no-repeat;
+  padding: 0 7px 0 21px;
+}
+
+.facebook-button .speech-bubble {
+  background-position: 6px 3px;
+}
+
+.facebook-button .plus {
+  background-position: 6px -17px;
+}
+
+.facebook-button .apprequests {
+  background-position: 6px -37px;
+}
+
+.button:link, .button:visited {
+  background-color: #7a90c0;
+  background-image: -moz-linear-gradient(top, #97afe2, #6073a1);
+  background-image: -ms-linear-gradient(top, #97afe2, #6073a1);
+  background-image: -o-linear-gradient(top, #97afe2, #6073a1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#97afe2), to(#6073a1));
+  background-image: -webkit-linear-gradient(top, #97afe2, #6073a1);
+  background-image: linear-gradient(top, #97afe2, #6073a1);
+  border: none;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .5), 0 1px 1px rgba(255, 255, 255, .33) inset;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .5), 0 1px 1px rgba(255, 255, 255, .33) inset;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .5), 0 1px 1px rgba(255, 255, 255, .33) inset;
+  color: #1d222c;
+  display: inline-block;
+  font: bold 14px "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+  line-height: 32px;
+  padding: 0 25px;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, .2);
+}
+
+/*scrollpane custom CSS*/
+/**/
+.jspVerticalBar{width:8px;background:transparent;right:10px;}
+.jspHorizontalBar{bottom:5px;width:100%;height:8px;background:transparent;}
+.jspTrack{background:transparent;}
+.jspDrag{background:url(../images/transpar.png) repeat;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+.jspHorizontalBar .jspTrack,.jspHorizontalBar .jspDrag{float:left;height:100%;}
+.jspCorner{display:none}
