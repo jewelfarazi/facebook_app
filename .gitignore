@@ -1,0 +1,11 @@
+
+# windows image file caches
+Thumbs.db
+# Recycle bin
+$RECYCLE.BIN/
+# folder config file
+images/
+
+js/
+!js/myscript.js
+
